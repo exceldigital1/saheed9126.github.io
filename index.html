@@ -1,209 +1,190 @@
 <html>
     <head>
-        <title>btemps</title>
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <style>
-        
-    .container{
-    margin: 0 80px;
-    height: 80vh;
+    body{
+    width: 100%;
 }
 
-.grand{
-    background: turquoise;
-    background-image: url(https://images.unsplash.com/photo-1561296160-7ea9d1b5511d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.grand2{
-    background: white;
-}
-
-.top-middle{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-shrink: 0;
-    color: white;
-    margin: 170px 0 55px 0;
-}
-
-h1{
-    font-size: 40px;
+header{
+    position: fixed;
+    flex: 1 1 0;
+    margin-top: 0%;
+    width: 100%;
+    top: 0%;
+    background:  rgb(37, 36, 36);
 }
 
 nav{
     display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 0;
+    justify-content: space-between;
+    background:  rgb(37, 36, 36);
+    border-bottom: 3px solid rgb(141, 34, 15);
+    width: 100%;
+}
+nav a:hover{
+    color: rgb(141, 34, 15);
+    background-color: white;
 }
 
-nav div{
-    margin-top: 10px;
+nav img{
+    width: 140px;
+    height: 100px;
+    justify-content: center;
+    align-self: center;
+    margin: 0 5%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0 5% 0 0;
+}
+
+nav ul li{
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-self: center;
 }
 
 nav a{
     color: white;
-    font-size: 25px;
-    margin-right: 10px;
-    text-transform: uppercase;
-    text-align: left;
-    margin-top: 5px;
-    transition: color 2s ease, padding 2s ease;
-}
-
-nav .fm a{
-    font-size: 50px;
-}
-
-nav .conta a{
-    margin-right: 0;
-}
-
-nav .home{
-    margin-left: auto;
-}
-
-a{
     text-decoration: none;
+    transition: color 2s ease, padding 2s ease;
+    padding-left: 3px;
 }
 
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    flex: 1 1 0;
+.home{
+    background: wheat;
+    background-image: url();
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 
-.but ul a{
-    flex-shrink: 2;
-    overflow: hidden;
+.top-up{
+    background-color: white;
+    margin: 0 5%;
 }
 
-
-.container ul{
-    margin-bottom: 50px;
-}
-
-ul .one{
-    padding: 25px 30px;
-    background: blue;
-    color: white;
-    flex-shrink: 2;
+.home h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    justify-self: center;
-    margin-bottom: 50px;
-    transition: color 2s ease, background 2s ease, padding 2s ease;
+    text-transform: uppercase;
+    color: rgb(141, 34, 15);}
+
+.home h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(37, 36, 36);
+    padding-top: 3%;
 }
 
-nav a:hover{
-    color: lightslategray;
-    padding: 10px;
-}
-ul .two{
-        padding: 25px 30px;
-        flex-shrink: 2;
-        background: none;
-        color: white;
-        text-align: center;
-        border: 2px solid white;
-        justify-self: center;
-        margin-bottom: 50px;
-        transition: color 2s ease, background 2s ease, padding 2s ease;
+.bottom-home p{
+    margin-bottom: 40px;
 }
 
-.but ul a:hover{
-    background: midnightblue;
-    padding-left: 20px;
-}
-
-.bottom-section .bc{
-   
-    margin: 0 70px;
-    display: flex;
-}
-
-.bc h2,h4{
-    font-size: larger;
-    color: teal;
-}
-.bc h2{
+.mid-home p{
+    font-family: sans-serif;
     font-size: x-large;
+    color: black;
+    padding: 20px 5%;
+    word-spacing: 3.73px;
+    line-height: 2;
 }
 
-.bc p{
-    text-align: justify;
-    word-spacing: 1px;
+.bottom-home{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: rgb(141, 34, 15);
+    margin-top: 45px;
+    padding-bottom: 5%;
 }
 
-.bco{
-    margin-left: 5%;
-    min-width: 30%;
+.bottom-home p{
+    margin-bottom: 40px;
 }
 
-.bco1{
-    min-width: 30%;
+.home .mid{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 auto;
+
 }
 
-.container .but{
-    margin-buttom: 40px;
-}
-/*######### project 2 ##########*/
-
-.section-two{
-    background:  rgb(37, 36, 36);
+.product{
+    background: rgb(41, 40, 38);
+    margin: 0 %;
+    background-attachment: fixed;
+    width: 100%;
 }
 
-.middle{
-    display: block;
-    margin: 0 10;
-    overflow: hidden;
+.pro{
+    background-color: rgb(141, 34, 15);
+    margin: 0 5%;
 }
 
-img{
+.product h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 2%;
+    color: white;
+    border-bottom: 2px solid rgb(141, 34, 15);
+}
+
+.product h3{
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding-top: 2%;
+    color:  rgb(167, 164, 152);
+    margin-bottom: 2%;
+}
+
+
+.product img{
     width: 98%;
     height: 400px;
     margin-bottom: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    transition: opacity 2s ease, transform 2s ease;
+    overflow: hidden;
 }
 
-.middle .cont:hover{
+.product img:hover{
     opacity: 0.7;
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.2);
+    border: 0px;
 }
 
-.bottom{
-    width: 98%;
-    background: rgb(68, 65, 65);
-    margin-top: 0px;
-    padding: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.images{
+    display: block;
+    margin: 0 1.2%;
+    overflow: hidden;
+    
 }
 
-.body h1{
-    text-align: center;
-    color: white;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    font-family: sans-serif;
-    font-size: 40px;
-    margin: 0px;
+.previews{
+    margin-top: 20px;
 }
 
-.body h4{
-    text-align: center;
-    color: whitesmoke;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
-.cont{
+.fun{
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: px;
@@ -211,388 +192,372 @@ img{
     overflow: hidden;
 }
 
-.middle p{
-    margin: 0;
-    letter-spacing: 1px;
-    margin-left: 10px;
-}
-
-.section-two .body{
-    margin: 30px 0px 40px 0;
-}
-
-input{
+.service{
+    background: rgb(141, 34, 15);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
-    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.service h2{
     text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
     color: white;
-    background: blue;
-    padding: 15px;
-    width: 38%;
-    margin: 20;
-    border: none;
-    position: relative;
-    left: 30%;
-    transition: color 2s ease, background 2s ease, padding 2s ease;
-}
-input:hover{
-     background: whitesmoke;
-     color: rgb(46, 46, 161);
-     padding: 17px;
-     cursor: pointer;
-     width: 36%;
-}
-
-@media screen and (min-width:206px){
-    .container{
-      height: 50vh;
-
-    }
+    margin-bottom: 70px;
     
-    .but ul a:hover{
-        background: midnightblue;
-        padding-left: 10px;
-    }
 }
+
+.service .top-service{
+    
+    color: white;
+}
+
+.service ul{
+    margin-top: 50px;
+    list-style-type: circle;
+}
+
+.service li{
+    margin-bottom: 50px;
+    padding-bottom: px;
+    font-size: 23px;
+    color: white;
+}
+
+.bottom-service{
+    margin-top: 50px;
+}
+
+.service h2{
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.serve{
+    background: rgb(37, 36, 36);
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.about{
+    background: rgb(141, 34, 15);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.abt{
+    background: rgb(37, 36, 36);
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.bottom-about{
+    margin-top: 50px;
+}
+
+.about h2{
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
+        color: white;
+        margin-bottom: 70px;
+}
+
+.abt p{
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3.73px;
+    padding: 0 10% 5% 10%;
+    line-height: 2;
+  
+}
+
+.contact{
+    background: rgb(141, 34, 15);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.cont{
+    background: white;
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 2%;
+    color: white;
+    border-bottom: 2px solid rgb(141, 34, 15);
+}
+
+
+
+.bottom-contact{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    
+}
+
+.contact .fab{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:576px){
-    .middle{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .cont{
-        flex: 0 0 calc(49%);
-    }
-    img{
-        height: 300px;
-    }
-  
-  
-   .top-middle{
-       margin-top: 195px;
-   }
-   
-nav a{
-    
-    font-size: 15px;
-    margin-right: 7px;
-}
-.container{
-    height: 70vh;
-    margin: 0 70px;
-}
-
-
-    
-}
-
-@media screen and (min-width:776px){
-    
-    .cont{
-        flex: 0 0 calc(24.5%);
+    .images{
+            display: flex;
+            flex-wrap: wrap;
+        }
         
-    }
-   .top-middle{
-       margin-top: 
-   }
-    img{
-        height: 300px;
+        .fun{
+            flex: 0 0 calc(50%);
+        }
     }
     
-    .container{
-        margin: 0 70px;
-       
-    }
-    
-     h1{
-        font-size: 50px;
-    }
+    @media screen and (min-width:776px){
+        .images{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .fun{
+                flex: 0 0 calc(33.33333%);
+            }
+            
+            
+        }
 
-nav a{
-   
-    font-size: 18px;
-    margin-right: 8px;
+</style>
     
-}
-
-}
-
-
-@media screen and (min-height:1000px){
-    
-    .cont{
-        flex: 0 0 calc(24.5%);
-        
-    }
-   
-    img{
-        height: 300px;
-    }
-    
-    
-nav a{
-   
-    font-size: 25px;
-    margin-right: 15px;
-    
-}
-
-}
-
-    </style>
     <body>
-        <section class="first-section">
-
-            <div class="grand">
-                <div class="container">
-                    <nav>
-                        <div class="fm"><a href="#"> frame</a></div>
-                        <div class="home"><a href="#">home</a> </div>
-                        <div class="feat"><a href="#">Features</a> </div>
-                        <div class="price"><a href="#">pricing</a> </div>
-                        <div class="rev"><a href="#">reviews</a> </div>
-                        <div class="conta"><a href="#">contact</a> </div>
-                    </nav>
+        <header>
+            <nav>
+                <img src="logo.jpg">
+                <ul>
+                    <li class="hm"><a href="#home">home</a></li>
+                    <li><a href="#product">products</a></li>
+                    <li><a href="#service">services</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contacts</a></li>
+                </ul>
+            </nav>
+        </header>
         
-                        <div class="top-middle">
-                            <h1>uicookies.com Creates High</h1> 
-                            <h1>Quality Bootstap Template  </h1> 
-                             <h1>For Free</h1>
-                        </div>
-        
-                        <div class="but">
-                            <ul>
-                                <li><a class="one" href="">Get Them Now</a></li>
-                                <li> <a class="two" href="">See Features</a></li>
-                            </ul>   
-                        
-                        </div>
-                              
-                </div>   
-        
-            </div>
 
-            <div class="grand2">
-                <section class="bottom-section">
-                    <div class="bc">
-                        <div class="bco1">
-                            <i class="fas fa-mobile-android-alt"></i>
-                            <h2>Mobile Optimize</h2>
-                            <p>Far far away behin the mountains, far from the countries Vokaika and Consonansia there live the blind texts. seperated they live in bookmark right at the coast of the semantics, a large language oceans</p>
-                            <h4>Learn More</h4>
-                        </div>
-            
-                        <div class="bco">
-                            <h2>Mobile Optimize</h2>
-                            <p>Far far away behin the mountains, far from the countries Vokaika and Consonansia there live the blind texts. seperated they live in bookmark right at the coast of the semantics, a large language oceans</p>
-                            <h4>Learn More</h4>
-                        </div c>
-            
-                        <div class="bco">
-                            <i class="fal fa-lightbulb"></i>
-                            <h2>Mobile Optimize</h2>
-                            <p>Far far away behin the mountains, far from the countries Vokaika and Consonansia there live the blind texts. seperated they live in bookmark right at the coast of the semantics, a large language oceans</p cl>
-                            <h4>Learn More</h4>
-                        </div>
-                    </div>
-            </div>
-            
-           
-
-        </section>
-        
-        <!--end of project 1-->
-
-        <!--start of project 2-->
-
-        </section>
-
-        <section class="section-two">
-            <div class="body">
-                <h1>Need CSS Templates ?</h1>
-                <h4>1000s of Templates & More, all available at- <id>evanto</id>market</h4>
-            </div>
-
-            <div class="middle">
-                <div class="cont">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU3JB1iYRh1FMcUddNur5gr5wyJxN8h2ZZBFTp-S_eBHxTHdrL&usqp=CAU">
-                    <div class="bottom">
-                        <p>Intervention-<b>HTML5</b></p>
-                        <P>TEMPLATE</P>
-                    </div>
+        <section class="home">
+            <div class="top-up">
+                <div class="top-home">
+                    <a name="home"><h1>welcome to i&b ventures</h1></a> 
+                    <h4>best of its kind......</h4>
                 </div>
     
-                <div class="cont">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU3JB1iYRh1FMcUddNur5gr5wyJxN8h2ZZBFTp-S_eBHxTHdrL&usqp=CAU">
-
-                    <div class="bottom">
-                        <p>SmartStart-<b>HTML5</b></p>
-                        <P>TEMPLATE</P>
-                    </div>
+                <div class="mid"><img src="https://5.imimg.com/data5/HA/GB/MY-11628200/corner-sofa-set-500x500.jpg"></div>
+    
+                <div class="mid-home">
+                    <p>This is the store of affordable and quality interior funitures you have been looking for.  We have varieties of funitures in different styles and colours and which qualities are second to none </p>
+                   
+    
                 </div>
     
-                <div class="cont">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU3JB1iYRh1FMcUddNur5gr5wyJxN8h2ZZBFTp-S_eBHxTHdrL&usqp=CAU">
-                    <div class="bottom">
-                        <p>MoonLight-Multi</p>
-                        <P>Purpose Template</P>
-                    </div>
+                <div class="bottom-home">
+                    <p>Let's get you the designs of your choice........</p>
                 </div>
-    
-                <div class="cont">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU3JB1iYRh1FMcUddNur5gr5wyJxN8h2ZZBFTp-S_eBHxTHdrL&usqp=CAU">
-
-                    <div class="bottom">
-                        <p>Santre-Creative</p>
-                        <P>HTML Template</P>
-                    </div>
-                </div>
-            </div>    
+            </div>
             
-            <input type="submit" value="Download Now">
+        
+        </section>
+
+        <section class="product">
+
+            <div class="pro">
+
+                <a name="product"><h2>products</h2></a>  
+                
+                <div class="selection">
+                    <p>go to:</p>
+                    <a href="#doors-preview">doors</a>
+                    <a href="#chairs-preview">chairs</a>
+                    <a href="#beds-preview">beds</a>
+                    <a href="#kitchen-carbinet-preview">kitchen carbinets</a>
+                    <a href="#wardrobes-preview">wardrobes</a>
+                </div>
+            <div class="previews">
+                <a name="beds-preview"><h3>beds-preview</h3></a> 
+                <div class="images">
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTudvKjQMCb5--qj41LwDLaAlsyzEOBllQBBXYDsvDQglTXy3xg&usqp=CAU"></div>
+                    <div class="fun"><img src="https://images.crateandbarrel.com/is/image/Crate/TateWoodQueenBedSHF17_16x9"></div>
+                    <div class="fun"><img src="https://cb2.scene7.com/is/image/CB2/DondraBedQueenSHS16_1x1/?$web_zoom$&190905020920&wid=450&hei=450"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQe3m7byk430gvS8N6llh1G-YsjukFTfT3-Ud9EAZqMtwJzIzA8&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbhriwwfb8gPlcSAb5B9LDTKRj959UuDeJnXSey53xnbO27Zun&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiUlFWfmjL1Ri6kuEFY_XzzrXP50acvHU8OCBj44jqLzLdhZwk&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNVI5zuXxXMOVgx99pjUBIazivsXI0exkrWExOFGLF6tY5u5GT&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8c0WklOyWy0bAbiJXYgP-VsBVEG-u1z347X1tvGOc8-ZAGnbQ&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRy2gNjAJePjEQtNBbX2WmPFoVz2cmhfQcGXZASCfQXbkuxabX&usqp=CAU"></div>
+                    
+                </div>
+                
+
+            <div class="previews">
+                <a name="kitchen-carbinet-preview"> <h3>kitchen-carbinet-preview</h3></a>
+                <div class="images">
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRSh6kpXsGXe1pJSgP3yDuUpDMKVu4UlcUkYwZr_5JSNAjXQuW4&usqp=CAU"></div>
+                    <div class="fun"><img src="https://img.favpng.com/24/10/19/kitchen-cabinet-cabinetry-door-png-favpng-Uy7iG4sKnxZ3wjz6TUVYWgDLv.jpg"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQaXB7oJ8ymFw-II9uPnpjnvK_YHcaNFdIU-CHXuuwJ50pxvaKF&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQz2Lk6DSmS4QYl9-z8y_C8e1E-lkqtDQ9jj-wK5WE_YddsHovR&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKuz5iqYNTGK_OxEB8TSvAiyTwK_Xs9MaCN-Z1UXntATPIkBMj&usqp=CAU"></div>
+                    <div class="fun"><img src="https://cdn.shopify.com/s/files/1/0191/3966/products/3roomPackage-13_2048x.jpg?v=1568441091"></div>
+                    <div class="fun"><img src="https://mcgankons.com/wp-content/uploads/2019/03/Marble-Top-Kitchen-Cabinet-wares.jpg"></div>
+                    <div class="fun"><img src="https://img1.ibay.com.mv/is1/full/2020/03/item_2933535_432.jpg"></div>
+                    <div class="fun"><img src="https://www.thespruce.com/thmb/0qJKb8sMZuyUVNnMeytwUBoyIY0=/2121x1414/filters:fill(auto,1)/Whitemodernkitchen-GettyImages-1089101352-4eddd67a46984affa521c889b02c5bf1.jpg"></div>
+                    
+                </div>
+            </div>
+
+            <div class="previews">
+                <a name="wardrobes-preview"><h3>wardrobes-preview</h3></a> 
+                <div class="images">
+                    <div class="fun"><img src="https://www.ikea.com/gb/en/images/products/brimnes-wardrobe-with-3-doors__0395289_PE562138_S5.JPG?f=s"></div>
+                    <div class="fun"><img src="https://images-na.ssl-images-amazon.com/images/I/51pqbsfEHiL._SY679_.jpg"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGpwEGSf9xiB1DEzKX5XG3aMjQrcD2sx9_-SF2qWfWX1ukyCXk&usqp=CAU"></div>
+                    <div class="fun"><img src="https://www.ikea.com/gb/en/images/products/brimnes-wardrobe-with-3-doors__0395289_PE562138_S5.JPG?f=s"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRx_3yKn5wTDLW3VPpCied-fN4Liqe-9f6Vx_GvqghYRzu_34TY&usqp=CAU"></div>
+                    <div class="fun"><img src="https://media.4rgos.it/i/Argos/1737743_R_Z001A?w=750&h=440&qlt=70"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTv5iFtXus0KxR0JSpxwq12hMaHhUPZyIrAcn-7QGM5CoeXNUzT&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDaH9jF9RwLdPKunB2tcsKbXqCvOzDfaFBhb6dUkBP7vzVFSlI&usqp=CAU"></div>
+                    <div class="fun"><img src="https://secure.img1-fg.wfcdn.com/im/22416844/compr-r85/3794/37942423/4-door-wardrobe-rasant.jpg"></div>
+                    
+                </div>
+            </div>
+
+            <div class="previews">
+                <a name="chairs-preview"><h3>chairs-preview</h3></a> 
+                <div class="images">
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBejpdu4LnHaJp_lLPRo7fClrXjlUvrzZE2WLl3NZs59tTLael&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTT6VOlsMipLBhhEcDb-i2lCVzOT4g_5-qTVLM7_mp6TZj21u0e&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGCLQX1T1sUiYlCHELQWYwcEQreUnLtCSuVcOBD-GE0mWEHXCf&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAjTU5ZLCUPRxF9m_wSwMgDAOjTBJ3mAs7kLsj7YERyi85KeGc&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLe6hH02p1366VFXHK8kJuwYGIhECm6IcpqtCkTXpbJ-nmVoO5&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPMydGxH835_-ISTtOhFNBDYxb5U9OIGA-_QYTHf2asTCQ358E&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcJKCWEvzERdP9-njhNwAkuKeFEbjK9gbZJVwVRju9LQuLP7bk&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHuCywW8uVvfDu8oOJ5qGHGgl8-l7g6Xl-CiEhkTYNKD5KXPuk&usqp=CAU"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTURJpkVpY5J_uiVfuWYLl1GZcGdVTy8k7ObJ2bp7ADKxg1FSod&usqp=CAU"></div>
+                    
+                </div>
+            </div>
+
+            <div class="previews">
+                <a name="doors-preview"><h3>doors-preview</h3></a> 
+                <div class="images">
+                    <div class="fun"><img src="https://images.homedepot-static.com/productImages/25481f7b-e058-4ca2-a13b-ae9e5f04e708/svn/chestnut-steves-sons-doors-with-glass-m6410-06-ct-4irh-64_1000.jpg"></div>
+                    <div class="fun"><img src="https://image.made-in-china.com/202f0j00DjkarPWIbZqM/Classic-Euro-White-MDF-Wood-Lacquer-Wooden-Interior-Door-MSGD03-.jpg"></div>
+                    <div class="fun"><img src="https://images.homedepot-static.com/productImages/557d8df3-9bf1-4ab7-8fb1-3f53f21fdabd/svn/wheat-white-steves-sons-doors-with-glass-a3109-6-aw-wj-4ilh-64_1000.jpg"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1UoO6LC09zdWxLQOhAK07AO4BWd5yHdJlllWpuy2h0vFUTbgk&usqp=CAU"></div>
+                    <div class="fun"><img src="https://doordesignlab.com/media/catalog/product/cache/1/image/1300x/fdbcc0227ab7e9a8eb7e0c372c5352ee/a/r/arvika_pw-min_1.jpg"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrnvVFpfIwrq24EqR7E3rvHm6sTvmCsnPuYaNQ-y1FbYHqezkj&usqp=CAU"></div>
+                    <div class="fun"><img src="https://i.pinimg.com/236x/2c/64/c1/2c64c16255f933bf83edc9b2e887323b--teak.jpg"></div>
+                    <div class="fun"><img src="https://images.homedepot-static.com/productImages/7331cff1-d56c-4328-b2da-f4ef4f06f312/svn/white-primed-steves-sons-prehung-doors-n626wwadaelh-64_1000.jpg"></div>
+                    <div class="fun"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9lelC13zSPwFZMEEPbQiwTui_pA4Dd68FyDlnSapZk9bHy7ZQ&usqp=CAU"></div>
+                    
+                </div>
+            </div>
+                
+            </div>
             
         </section>
+
+        <section class="service">
+            <a name="service"><h2>our services</h2></a> 
+            <div class="serve">
+                
+            
+            <div class="bottom-servive">
+                <ul class="service-step">
+                    <li>Our products' quality are at its peak and they are second to none</li>
+                    <li>We are here to give you best designs that you can never imagine of</li>
+                    <li>Delivery or transportation of your product is also in our hands</li>
+                    <li>We give discounts of mass purchases to wholesalers and retailers and even individual hoseholds</li>
+                    <li class="down">Affordability of our productscan also be so much convincing</li>
+                </ul>
+            </div>
+            </div>
+            
+        </section>
+        <section class="about">
+            <a name="about"><h2>about us</h2></a> 
+            <div class="abt">
+                
+                <div class="bottom-about">
+                    <p>I&B Ventures is an organisation dedicated to serve you with our highly quality products which are always available, affordable and ready for delivery to your desired destinations at a very low price. we are creative in what we do, responsible, reliable and commited to serve you better than others you can ever think of. </p>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="contact">
+            <a name="contact"><h2>contact us @</h2></a> 
+            <div class="cont">
+                
+                <div class="bottom-contact">
+                    <a href="http://mobile.facbook.com/IB-ventures-102674278132828/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com/ib_ventures/"><i class="fab fa-instagram"></i></a>
+                    <a href="http://mobile.twitter.com/ibventures"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fas fa-whatsapp"></i></a>
+                </div>
+
+                <div class="call">
+                    <a href=""><i class="fas fa-phone"></i></a>
+                    <p>08082409366, 09025347270</p>
+                </div>
+               
+
+            </div>
+            
+        </section>
+
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
